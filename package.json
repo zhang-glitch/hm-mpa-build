@@ -1,0 +1,48 @@
+{
+  "name": "hm-mpa-build",
+  "version": "1.0.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "zhang-glitch",
+    "gulp",
+    "mpa",
+    "build"
+  ],
+  "homepage": "https://github.com/zhang-glitch/hm-mpa-build/#readme",
+  "bugs": {
+    "url": "https://github.com/zhang-glitch/hm-mpa-build/issues"
+  },
+  "license": "MIT",
+  "author": "zhang-glitch",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": "bin/hm-mpa-build.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhang-glitch/hm-mpa-build.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "browser-sync": "^2.29.1",
+    "del": "5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "6.1.0",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.62.0"
+  }
+}
