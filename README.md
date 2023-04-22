@@ -25,6 +25,17 @@ data: {
 
 }
 ```
+我们可以使用该构建工具的一些命令，为我们构建项目。
+```js
+"scripts": {
+  // 清除打包
+  "clean": "hm-mpa-build clean",
+  // 打包
+  "build": "hm-mpa-build build",
+  // 运行项目预览
+  "dev": "hm-mpa-build dev"
+},
+```
 ## 一些项目介绍
 ### bin/index.js
 cli入口文件。
